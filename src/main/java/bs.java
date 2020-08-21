@@ -81,7 +81,8 @@ public class bs
 
                         if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
                             if (Pattern.matches("\\d{2}m \\d{2}s", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d{2}' \\d{2}\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d{2}' \\d{2}\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d{2}' \\d{2}''", cell.getStringCellValue())) {
 
                                 String minuteValue = cell.getStringCellValue().substring(0, 2);
                                 String secValue = cell.getStringCellValue().substring(4, 6);
@@ -91,7 +92,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\d{2}m\\d{2}s", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d{2}'\\d{2}\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d{2}'\\d{2}\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d{2}'\\d{2}''", cell.getStringCellValue())) {
 
                                 String minuteValue = cell.getStringCellValue().substring(0, 2);
                                 String secValue = cell.getStringCellValue().substring(3, 5);
@@ -101,7 +103,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\dm \\d{2}s", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d' \\d{2}\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d' \\d{2}\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d' \\d{2}''", cell.getStringCellValue())) {
 
                                 String minuteValue = cell.getStringCellValue().substring(0, 1);
                                 String secValue = cell.getStringCellValue().substring(3, 5);
@@ -111,7 +114,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\dm\\d{2}s", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d'\\d{2}\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d'\\d{2}\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d'\\d{2}''", cell.getStringCellValue())) {
                                 String minuteValue = cell.getStringCellValue().substring(0, 1);
                                 String secValue = cell.getStringCellValue().substring(2, 4);
 
@@ -120,7 +124,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\d{2}m \\ds", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d{2}' \\d\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d{2}' \\d\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d{2}' \\d''", cell.getStringCellValue())) {
 
                                 String minuteValue = cell.getStringCellValue().substring(0, 2);
                                 String secValue = cell.getStringCellValue().substring(4, 5);
@@ -130,7 +135,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\d{2}m\\ds", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d{2}'\\d\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d{2}'\\d\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d{2}'\\d''", cell.getStringCellValue())) {
                                 String minuteValue = cell.getStringCellValue().substring(0, 2);
                                 String secValue = cell.getStringCellValue().substring(3, 4);
 
@@ -139,7 +145,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\dm \\ds", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d' \\d\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d' \\d\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d' \\d''", cell.getStringCellValue())) {
 
                                 String minuteValue = cell.getStringCellValue().substring(0, 1);
                                 String secValue = cell.getStringCellValue().substring(3, 4);
@@ -149,7 +156,8 @@ public class bs
                                 ++successful;
 
                             } else if (Pattern.matches("\\dm\\ds", cell.getStringCellValue()) ||
-                                    Pattern.matches("\\d'\\d\"", cell.getStringCellValue())) {
+                                    Pattern.matches("\\d'\\d\"", cell.getStringCellValue()) ||
+                                    Pattern.matches("\\d'\\d''", cell.getStringCellValue())) {
                                 String minuteValue = cell.getStringCellValue().substring(0, 1);
                                 String secValue = cell.getStringCellValue().substring(2, 3);
 

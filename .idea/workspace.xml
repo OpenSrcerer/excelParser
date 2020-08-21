@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118aa067-b38b-4dd0-a1e9-f9bf3b1f7f35" name="Default Changelist" comment="" />
+    <list default="true" id="118aa067-b38b-4dd0-a1e9-f9bf3b1f7f35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/whocares-1.0-1.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gMKnKUXVD09cznhfim9N5GJmkV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +39,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bs.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,6 +84,7 @@
       <workItem from="1597919189265" duration="2181000" />
       <workItem from="1597921395864" duration="8628000" />
       <workItem from="1597945702655" duration="6654000" />
+      <workItem from="1598011631576" duration="1751000" />
     </task>
     <servers />
   </component>
@@ -81,22 +100,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="719" y="292" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597919494487" />
-    <state width="1424" height="363" key="GridCell.Tab.0.bottom" timestamp="1597952364295">
+    <state width="1424" height="207" key="GridCell.Tab.0.bottom" timestamp="1598013273850">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1424" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597952364295" />
-    <state width="1424" height="363" key="GridCell.Tab.0.center" timestamp="1597952364295">
+    <state width="1424" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598013273850" />
+    <state width="1424" height="207" key="GridCell.Tab.0.center" timestamp="1598013273850">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1424" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597952364295" />
-    <state width="1424" height="363" key="GridCell.Tab.0.left" timestamp="1597952364295">
+    <state width="1424" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598013273850" />
+    <state width="1424" height="207" key="GridCell.Tab.0.left" timestamp="1598013273849">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1424" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597952364295" />
-    <state width="1424" height="363" key="GridCell.Tab.0.right" timestamp="1597952364295">
+    <state width="1424" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598013273849" />
+    <state width="1424" height="207" key="GridCell.Tab.0.right" timestamp="1598013273850">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1424" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597952364295" />
+    <state width="1424" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598013273850" />
     <state width="1424" height="363" key="GridCell.Tab.1.bottom" timestamp="1597952364296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
